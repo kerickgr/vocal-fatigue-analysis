@@ -1,0 +1,40 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# Системные файлы
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Секреты
+.env
+
+# Сборка / дистрибуция
+build/
+dist/
+*.egg-info/
+
+# Модели и большие файлы (если будут)
+*.h5
+*.pkl
+*.joblib
+
+# ML артефакты
+*.ckpt
+*.pb
+*.onnx
