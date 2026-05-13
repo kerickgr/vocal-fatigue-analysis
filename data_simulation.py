@@ -6,7 +6,7 @@ from imblearn.over_sampling import SMOTE
 from imblearn.combine import SMOTETomek
 
 
-def create_synthetic_vocal_dataset(n_singers=200, time_steps=50, fatigue_prob=0.4, seed=42, difficulty='hard'):
+def create_synthetic_vocal_dataset(n_singers=200, time_steps=50, fatigue_prob=0.4, seed=2, difficulty='hard'):
     """
     Создает синтетический датасет с балансировкой классов
     """

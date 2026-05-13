@@ -1,40 +1,33 @@
-# Виртуальное окружение
-.venv/
+# Virtual environments
 venv/
-env/
+.venv/
 
-# Кэш Python
+# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
 
-# Логи
-*.log
+# VS Code
+.vscode/
 
-# Jupyter
-.ipynb_checkpoints
-
-# Системные файлы
+# macOS
 .DS_Store
 
-# IDE
-.vscode/
-.idea/
+# Jupyter
+.ipynb_checkpoints/
 
-# Секреты
-.env
+# Temporary Word files
+~$*.docx
 
-# Сборка / дистрибуция
-build/
-dist/
-*.egg-info/
+# Generated numpy arrays
+*.npy
 
-# Модели и большие файлы (если будут)
-*.h5
-*.pkl
-*.joblib
+# Generated csv results
+experiment_results*.csv
+real_data_results*.csv
 
-# ML артефакты
-*.ckpt
-*.pb
-*.onnx
+# Generated plots
+*.png
+
+# Records/raw data
+records/
